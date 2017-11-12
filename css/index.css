@@ -1,0 +1,139 @@
+/* ---全局配置--- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before {
+  box-sizing: border-box;
+}
+
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+
+/* topbar */
+
+.topbar-wrapper {
+  margin-bottom: 20px;
+}
+
+.topbar {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  font-size: 45px;
+  line-height: 88px;
+  width: 200px;
+  text-align: center;
+  color: #0096e0;
+  letter-spacing: 2px;
+}
+
+.logo>span {
+  font-weight: bold;
+}
+
+.nav {
+  float: left;
+  padding-left: 100px;
+  color: #99a9c4;
+  font-size: 18px;
+}
+
+.nav li {
+  float: left;
+  margin-left: 20px;
+}
+
+.nav li a {
+  display: inline-block;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+  line-height: 84px;
+}
+
+.nav li:hover {
+  color: #0096e0;
+}
+
+.nav li.active {
+  color: #0096e0;
+  border-bottom: 4px solid #0096e0;
+}
+
+
+/* footer */
+
+.footer {
+  background: #0096e0;
+  padding: 20px;
+}
+
+.footer-left {
+  float: left;
+  margin-left: 500px;
+}
+
+.footer-left img {
+  width: 100px;
+  height: 100px;
+}
+
+.footer-right {
+  float: right;
+  height: 100px;
+  margin-right: 300px;
+}
+
+.footer-right .call p {
+  width: 500px;
+  line-height: 35px;
+}
+
+.footer-right .call p span {
+  display: inline-block;
+  width: 20%;
+  text-align: right;
+}
